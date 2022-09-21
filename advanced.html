@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="link">
+           <a href="index.html">Google Search</a> 
+        </div>
+        <img src="google.png" class="rounded" alt="Google" width="100px">
+        <br>
+        <br>
+        <div id="head" class="card-header">
+            Advanced Search
+        </div>
+        <br>
+        <br>
+        <h5>
+            Find pages with... 
+        </h5>
+        <br>
+        <br>
+        <form action="https://www.google.com/search">
+            <div class="d-flex flex-column mb-3">
+                <div class="mb-3 row">
+                    <label for="as_q" class="col-sm-2 col-form-label">all these words:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="as_q" name="as_q">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="as_epq" class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="as_epq" name="as_epq">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="as_oq" class="col-sm-2 col-form-label">any of these words:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="as_oq" name="as_oq">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="as_eq" class="col-sm-2 col-form-label">none of these words:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="as_eq" name="as_eq">
+                    </div>
+                </div>
+                <div class="text-center">
+                    <br>
+                    <button type="submit" class="btn btn-primary mb-3">Advanced Search</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

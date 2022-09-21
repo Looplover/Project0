@@ -1,0 +1,27 @@
+body {
+    padding: 20px;
+}
+#link {
+    text-align: right;
+}
+#link a {
+    border: 1px solid;
+    background-color: blue;
+    color:aliceblue;
+    padding: 10px;
+    text-decoration-line: none;
+    font-family: sans-serif;
+}
+#link a:hover {
+    background-color: orange;
+}
+input {
+    align-items: center;
+}
+
+#head {
+    color: red;
+    font-size: 20px;
+}
+
+
